@@ -1,273 +1,416 @@
 <!DOCTYPE html>
-<html lang="ar">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-    <title>أفوكاتو</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+<html lang="en"><head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <meta charset="utf-8">
+        <title> فهرست فهرست</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+		<link href="assets/css/google-plus.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Scheherazade" rel="stylesheet"> 
+    </head>
     
-    <script src="assets/js/modernizr.custom.js"></script>
+<body class="">
+        
+        <div class="navbar navbar-fixed-top header">
+  <div class="col-md-12">
+        <div class="navbar-header">
+          
+          <a href="#" class="navbar-brand">أفوكاتو</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse1">
+          <i class="glyphicon glyphicon-search"></i>
+          </button>
+      
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse1">
+          <form class="navbar-form pull-right">
+              <div class="input-group" style="max-width:470px;">
+                <input class="form-control" placeholder="إبحث " name="srch-term" id="srch-term" type="text">
+                <div class="input-group-btn">
+                  <button class="btn btn-default btn-primary" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                </div>
+              </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+             <li><a href="#" target="_ext">فهرست</a></li>
+             <li class="">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-bell"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><span class="badge pull-right">40</span>Link</a></li>
+                  <li><a href="#"><span class="badge pull-right">2</span>Link</a></li>
+                  <li><a href="#"><span class="badge pull-right">0</span>Link</a></li>
+                  <li><a href="#"><span class="label label-info pull-right">1</span>Link</a></li>
+                  <li><a href="#"><span class="badge pull-right">13</span>Link</a></li>
+                </ul>
+             </li>
+            <!--  <li><a class="" href="#" id="btnToggle"><i class="glyphicon glyphicon-th-large"></i></a></li> -->
+             <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
+           </ul>
+        </div>  
+     </div> 
+</div>
+<div class="navbar navbar-default" id="subnav">
+    <div class="col-md-12">
+        <div class="navbar-header">
+          
+          <a href="#" style="margin-left:15px;" class="navbar-btn btn btn-default btn-plus dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-home" style="color:#dd1111;"></i> الرئيسية  <small><i class="glyphicon glyphicon-chevron-down"></i></small></a>
+          <ul class="nav dropdown-menu">
+              <li><a href="#"><i class="glyphicon glyphicon-user" style="color:#1111dd;"></i> حسابي </a></li>
+              <li><a href="#"><i class="glyphicon glyphicon-dashboard" style="color:#0000aa;"></i> فهرست</a></li>
+              <li><a href="#"><i class="glyphicon glyphicon-inbox" style="color:#11dd11;"></i> فهرست</a></li>
+              <li class="nav-divider"></li>
+              <li><a href="#"><i class="glyphicon glyphicon-cog" style="color:#dd1111;"></i> Settings</a></li>
+              <li><a href="#"><i class="glyphicon glyphicon-plus"></i> More..</a></li>
+          </ul>
+          
+          
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+      
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse2">
+          <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="#">مدونة</a></li>
+             <li><a href="#loginModal" role="button" data-toggle="modal">تسجيل دخول</a></li>
+             <li><a href="#aboutModal" role="button" data-toggle="modal">فهرست</a></li>
+           </ul>
+        </div>  
+     </div> 
+</div>
+
+<!--main-->
+<div class="container" id="main">
+   <div class="row">
+   <div class="col-sm-6 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading"><a href="#" class="pull-left">مزيد</a> <h3>أسئلة و أجوبة </h3></div>
+        <div class="panel-body">
+              <div class="list-group">
+                <a href="#" class="list-group-item">فهرست</a>
+                <a href="#" class="list-group-item">فهرست</a>
+                <a href="#" class="list-group-item">فهرست</a>
+              </div>
+            </div>
+      </div>
+     
+        
+     
+      <div class="panel panel-default">
+           <div class="panel-heading"><a href="#" class="pull-left">مزيد</a> <h3>أستاذ أحمد مصطفى  </h3></div>
+        <div class="panel-body">
+               دفيد  إنسدف؛ الصندف ...
+              <hr>
+              <div class="well well-sm">
+                <div class="media">
+                    <a class="thumbnail pull-right" href="#">
+                        <img class="media-object" src="assets/img/a13ac7aed64918b6354f48da59490e3a.jpg">
+                    </a>
+                    <div class="media-body">
+                        <h3 class="media-heading">فلان الفلاني 
+                    <p></p>
+                        <p>
+                            <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-comment"></span> رسالة </a>
+                            <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-heart"></span> أضف إلى </a>
+                        </p>
+                    </h3></div>
+                </div>
+               </div>
+            </div>
+         </div> 
+   
+         
+
+  </div>
+    <div class="col-sm-6 col-md-4">
+         
+          <div class="well"> 
+             <form class="form">
+              <h3>تسجيل </h3>
+              <div class="input-group text-center">
+              <input class="form-control input-lg" placeholder="فهرست فهرست فهرست فهرست" type="text">
+                <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">تأكيد </button></span>
+              </div>
+            </form>
+          </div>
+
+         
+      <div class="panel panel-default">
+           <div class="panel-heading"><a href="#" class="pull-left">مزيد</a> <h3>مدونة</h3></div>
+        <div class="panel-body">
+              <p><img src="assets/img/150x150.gif" class="img-circle pull-left"> <a href="#">فلان الفلاني </a></p>
+              <div class="clearfix"></div>
+              <hr>
+             قول التي وبريطانيا إذ دنو, إعلان مزيد ٣٠ أخذ. و للجزر ا ت مقاطعة v. الشمال الغالي الشتوية أي تلك, دفّة إحتار والفلبين تحت عل. به، وانهاء واعتلاء أم, من فسقط وحتّقول التي وبريطانيا إذ دنو, إعلان مزيد ٣٠ أخذ. و للجزر ا ت مقاطعة v. الشمال الغالي الشتوية أي تلك, دفّة إحتار والفلبين تحت عل. به، وانهاء واعتلاء أم, من فسقط وحتّ
+            </div>
+         </div>
+         
+      
+    </div>
+    <div class="col-sm-6 col-md-4">
+         
+        
+        
+ 
+        <div class="panel panel-default">
+          <div class="panel-heading"><a href="#" class="pull-left">مزيد</a> <h3>محامين معتمدين </h3></div>
+        <div class="panel-body">
+              <div class="list-group">
+                <a href="#" class="list-group-item active">جنائى</a>
+                <a href="#" class="list-group-item">أسرة</a>
+                <a href="#" class="list-group-item">تأسيس شركات</a>
+                <a href="#" class="list-group-item">تجارى</a>
+                <a href="#" class="list-group-item">تأسيس شركات</a>
+              </div>
+            </div>
+      </div>
+
+
+
+
+<div class="panel panel-default">
+           <div class="panel-heading"><a href="#" class="pull-left">مزيد</a> <h3>أستاذ أحمد مصطفى  </h3></div>
+        <div class="panel-body">
+               دفيد  إنسدف؛ الصندف ...
+              <hr>
+              <div class="well well-sm">
+                <div class="media">
+                    <a class="thumbnail pull-right" href="#">
+                        <img class="media-object" src="assets/img/a13ac7aed64918b6354f48da59490e3a.jpg">
+                    </a>
+                    <div class="media-body">
+                        <h3 class="media-heading">فلان الفلاني 
+                    <p></p>
+                        <p>
+                            <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-comment"></span> رسالة </a>
+                            <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-heart"></span> أضف إلى </a>
+                        </p>
+                    </h3></div>
+                </div>
+               </div>
+            </div>
+         </div>
+
+
+
+
+      
+    </div>
+  </div><!--/row-->
+  
+  <hr>
+  
+  <div class="row">
+    <div class="col-md-12"><h2>فهرست</h2></div>
+    <div class="col-sm-6 col-md-4">
+       <div class="panel panel-default">
+           <div class="panel-heading"><a href="#" class="pull-left">مزيد</a> <h3>فهرست</h3></div>
+        <div class="panel-body">
+
+                <ul class="nav nav-tabs">
+                  <li class=""><a href="#A" data-toggle="tab"> 1</a></li>
+                  <li class=""><a href="#B" data-toggle="tab"> 2</a></li>
+                  <li class="active"><a href="#C" data-toggle="tab"> 3</a></li>
+                </ul>
+                <div class="tabbable">
+                  <div class="tab-content">
+                    <div class="tab-pane" id="A">
+                      <div class="well well-sm">  فهرست فهرست فهرست 1</div>
+                    </div>
+                    <div class="tab-pane" id="B">
+                      <div class="well well-sm">فهرست فهرست فهرست فهرست فهرست 2</div>
+                    </div>
+                    <div class="tab-pane active" id="C">
+                      <div class="well well-sm">فهرست فهرست فهرست 3</div>
+                    </div>
+                  </div>
+                </div> <!-- /tabbable -->
+              
+                <div class="col-sm-12 text-center">
+                  <ul class="pagination center-block" style="display:inline-block;">
+                    <li><a href="#">«</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">»</a></li>
+                  </ul>
+                </div>
+              
+            </div>
+         </div>
+    </div>
+     <div class="col-sm-6 col-md-4">
+      <div class="panel panel-default">
+           <div class="panel-heading"><a href="#" class="pull-left">مزيد</a> <h3>أستاذ أحمد مصطفى  </h3></div>
+        <div class="panel-body">
+               دفيد  إنسدف؛ الصندف ...
+              <hr>
+              <div class="well well-sm">
+                <div class="media">
+                    <a class="thumbnail pull-right" href="#">
+                        <img class="media-object" src="assets/img/a13ac7aed64918b6354f48da59490e3a.jpg">
+                    </a>
+                    <div class="media-body">
+                        <h3 class="media-heading">فلان الفلاني </h3<>
+                    <p></p>
+                        <p>
+                            <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-comment"></span> رسالة </a>
+                            <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-heart"></span> أضف إلى </a>
+                        </p>
+                    </div>
+                </div>
+               </div>
+            </div>
+         </div> 
+    </div>
+     <div class="col-sm-6 col-md-4">
+      <div class="panel panel-default">
+           <div class="panel-heading"><a href="#" class="pull-left">مزيد</a> <h3>فهرست</h3></div>
+        <div class="panel-body">
+              <img src="assets/img/150.gif" class="img-circle pull-right"> <a href="#">فهرست</a>
+              <div class="clearfix"></div>
+              <hr>
+              <div class="clearfix"></div>
+              <img src="assets/img/FFF_003.gif" class="img-responsive img-thumbnail pull-right">
+              <p>و بوابة ماليزيا، أي, هو تشكيل الشرقي الجنود وفي. مع كلا وبدون إعادة للسيطرة, كل لهيمنة واشتدّت نفس, حول تم غريمه وإقامة الشرقي.</p>
+              <div class="clearfix"></div>
+              <hr>
+              <div class="clearfix"></div>
+              <img src="assets/img/FFF_004.gif" class="img-responsive img-thumbnail pull-left" style="margin-right:5px;">
+              <p>أم لان ثانية وانتهاءً, الهجوم تكاليف وصافرات لم يتم. بين التي العناد الثالث، عن, تسمّى قتيل، ما الا. تحت لم وسوء لغات بقيادة, بمحاولة</p>
+              
+              
+            </div>
+         </div> 
+    </div><!--/articles-->
+    </div>
     
-  </head>
-
-  <body>
-
-	<!-- Menu -->
-	<nav class="menu" id="theMenu">
-		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">الرئيسية</a></h1>
-			<i class="fa fa-arrow-right menu-close"></i>
-			<a href="index.html"> محامين </a>
-			<a href="services.html">أسئلة و أجوبة </a>
-			<a href="portfolio.html"> مستندات قانونية </a>
-			<a href="about.html"> ملف شخصي  </a>
-			<a href="#contact">مدونة</a>
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-dribbble"></i></a>
-			<a href="#"><i class="fa fa-envelope"></i></a>
-		</div>
-		
-		<!-- Menu button -->
-		<div id="menuToggle"><i class="fa fa-bars"></i></div>
-	</nav>
-	
-	<!-- MAIN IMAGE SECTION -->
-	<div id="headerwrap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<h1>أفوكاتو</h1>
-					<h2>بوابتك للقانون المصري </h2>
-					<div class="spacer"></div>
-					<i class="fa fa-angle-down"></i>
-				</div>
-			</div><!-- row -->
-		</div><!-- /container -->
-	</div><!-- /headerwrap -->
-<div class="space-50"></div>
-	<!-- WELCOME SECTION -->
-    <div class="container">
-   <div id="call">
-		<div class="container">
-			<div class="row">
-				<h3>ارات أضف, </h3>
-				<div class="col-lg-8 col-lg-offset-2">
-					<p>ن بشرية عملية لمّ, ذات مع الدمج لأداء. الإنزال الكونجرس أم ضرب, ٣٠ ضمنها الشتوية الدولارات أضف, لم ونتج السيء الثانية بعض. أخذ الآخر تكتيكاً أن. عل بال الحرة الآلاف التّحول. الأراضي الدولار</p>
-					<p><button type="button" class="btn btn-green btn-lg">إبحث الآن </button></p>
-				</div>
-			</div><!-- row -->
-		</div><!-- container -->
-	</div>
-    </div><!-- /.container -->
+    <hr>
+  
+  
+  
+    <hr>
+  
+    <div class="row">
+      <div class="col-md-12"><h2>فهرست</h2></div>
+       
+      
+     
+     <div class="col-sm-6 col-md-12">
+  <div class="well"> 
+             <form class="form">
+              <h4>تسجيل </h4>
+              <div class="input-group text-center">
+              <input class="form-control input-lg" placeholder="Enter your email address" type="text">
+                <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">فهرست</button></span>
+              </div>
+            </form>
+          </div>
+    </div><!--playground-->
     
+    <br>
+    
+    <div class="clearfix"></div>
+      
+    <hr>
+    <div class="col-md-4 text-center"><p><a href="#" target="_ext">  فهرست   </a><br><a href="#" target="_ext">   فهرست   </a></p></div>
+     <div class="col-md-4 text-center"><p><a href="#" target="_ext">  فهرست   </a><br><a href="#" target="_ext">   فهرست   </a></p></div>
+      <div class="col-md-4 text-center"><p><a href="#" target="_ext">  فهرست   </a><br><a href="#" target="_ext">   فهرست   </a></p></div>
+       <div class="col-md-4 text-center"><p><a href="#" target="_ext">  فهرست   </a><br><a href="#" target="_ext">   فهرست   </a></p></div>
+        <div class="col-md-4 text-center"><p><a href="#" target="_ext">  فهرست   </a><br><a href="#" target="_ext">   فهرست   </a></p></div>
+         <div class="col-md-4 text-center"><p><a href="#" target="_ext">  فهرست   </a><br><a href="#" target="_ext">   فهرست   </a></p></div>
+
+    <hr>
+    
+  </div>
+</div><!--/main-->
 
 
-     <!-- PORTFOLIO SECTION -->
-    <div id="portfolio">
-    	<div class="container"
-	    	<div class="row mt">
-				<ul class="grid effect-2" id="grid">
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/filler.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/filler.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/filler.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/12.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/13.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/10.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/filler.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/filler.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/14.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/filler.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/filler.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/filler.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/6.jpg"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/filler.png"></a></li>
-					<li><a href="singleproject.html"><img src="assets/img/portfolio/11.png"></a></li>
-				</ul>
-	    	</div><!-- row -->
-	    </div><!-- container -->
-    </div><!-- portfolio -->
+
+<!--login modal-->
+<div style="display: none;" id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h2 class="text-center"><img src="assets/img/photo_002.png" class="img-circle"><br>فهرست  </h2>
+      </div>
+      <div class="modal-body">
+          <form class="form col-md-12 center-block">
+            <div class="form-group">
+              <input class="form-control input-lg" placeholder="Email" type="text">
+            </div>
+            <div class="form-group">
+              <input class="form-control input-lg" placeholder="Password" type="password">
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary btn-lg btn-block">فهرست   فهرست  </button>
+              <span class="pull-right"><a href="#">فهرست  </a></span><span><a href="#">فهرست  فهرست  ?</a></span>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <div class="col-md-12">
+          <button class="btn" data-dismiss="modal" aria-hidden="true">فهرست  </button>
+      </div>  
+      </div>
+  </div>
+  </div>
+</div>
 
 
-	<!-- SERVICES SECTION -->
-	<div id="services">
-		<div class="container">
-			<div class="row mt">
-				<div class="col-lg-1 centered">
-					<i class="fa fa-certificate"></i>
-				</div>
-				<div class="col-lg-3">
-					<h3> أسئلة و أجوبة قانونية </h3>
-					<p>
+<!--about modal-->
+<div style="display: none;" id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h2 class="text-center">فهرست  </h2>
+      </div>
+      <div class="modal-body">
+          <div class="col-md-12 text-center">
+            <a href="#">فهرست   فهرست   فهرست  </a><br> فهرست   فهرست   <i class="glyphicon glyphicon-heart"></i> by <a href="#">فهرست  </a>
+            <br><br>
+            <a href="#">فهرست   فهرست  </a>
+          </div>
+      </div>
+      <div class="modal-footer">
+          <button class="btn" data-dismiss="modal" aria-hidden="true">فهرست  </button>
+      </div>
+  </div>
+  </div>
+</div>
 
-ان بشرية عملية لمّ, ذات مع الدمج لأداء. الإنزال الكونجرس أم ضرب, ٣٠ ضمنها الشتوية الدولارات أضف, لم ونتج السيء الثانية بعض. أخذ الآخر تكتيكاً أن. عل بال الحرp>
-				</div>
-
-				<div class="col-lg-1 centered">
-					<i class="fa fa-question-circle"></i>
-				</div>
-				<div class="col-lg-3">
-					<h3> خدمات للمحامين </h3>
-					<p>
-
-ان بشرية عملية لمّ, ذات مع الدمج لأداء. الإنزال الكونجرس أم ضرب, ٣٠ ضمنها الشتوية الدولارات أضف, لم ونتج السيء الثانية بعض. أخذ الآخر تكتيكاً أن. عل بال الحر</p>
-				</div>
-			
-			
-				<div class="col-lg-1 centered">
-					<i class="fa fa-globe"></i>
-				</div>
-				<div class="col-lg-3">
-					<h3> حمل مستندات قانونية</h3>
-					<p>
-
-ان بشرية عملية لمّ, ذات مع الدمج لأداء. الإنزال الكونجرس أم ضرب, ٣٠ ضمنها الشتوية الدولارات أضف, لم ونتج السيء الثانية بعض. أخذ الآخر تكتيكاً أن. عل بال الحر</p>
-				</div>
-			
-			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- services section -->
-	
-	
-	<!-- BLOG POSTS -->
-	<div class="container">
-		<div class="row mt">
-			<div class="col-lg-12">
-				<h1>أحدث المدونات </h1>
-			</div><!-- col-lg-12 -->
-			<div class="col-lg-8">
-				<p>ية بعض. أخذ الآخر تكتيك</p>
-			</div><!-- col-lg-8-->
-			<div class="col-lg-4 goright">
-				<p><a href="#"><i class="fa fa-angle-right"></i> إعرض كل االمدونات </a></p>
-			</div>
-		</div><!-- row -->
-		
-		<div class="row mt">
-			<div class="col-lg-4">
-				<img class="img-responsive" src="assets/img/post01.jpg" alt="">
-				<h3><a href="#"> بشرية عملية لمّ, ذات مع الدم/a></h3>
-				<p>ان بشرية عملية لمّ, ذات مع الدمج لأداء. الإنزال الكونجرس أم ضرب, ٣٠ ضمنها الشتوية الدولارات أضف, لم ونتج السيء الثانية بعض. أخذ الآخر تكتيكاً أن. عل بال الحر.</p>
-				<p><a href="#"><i class="fa fa-link"></i> المزيد </a></p>
-			</div>
-			<div class="col-lg-4">
-				<img class="img-responsive" src="assets/img/post02.jpg" alt="">
-				<h3><a href="#">ان بشرية عملية لمّ, ذات مع الدمج لأداء. الإنزال الكونجرس أم ضرب, ٣٠ ضمنها الشتوية الدولارات أضف, لم ونتج السيء الثانية بعض. أخذ الآخر تكتيكاً أن. عل بال الحر</p>
-				<p><a href="#"><i class="fa fa-link"></i> المزيد </a></p>
-			</div>
-			<div class="col-lg-4">
-				<img class="img-responsive" src="assets/img/post03.jpg" alt="">
-				<h3><a href="#">ان بشرية عملية لمّ, ذات مع الدمج لأداء. الإنزال الكونجرس أم ضرب, ٣٠ ضمنها الشتوية الدولارات أضف, لم ونتج السيء الثانية بعض. أخذ الآخر تكتيكاً أن. عل بال الحر</p>
-				<p><a href="#"><i class="fa fa-link"></i> المزيد </a></p>
-			</div>		
-		</div><!-- row -->
-	</div><!-- container -->
-	
-	
-
-	
-	
-
-	
-	<div class="container">
-		<div class="row mt">
-			<div class="col-lg-12">
-				<h1>عملية لمّ, </h1>
-				<p>ن بشرية عملية لمّ, ذات مع الدمج لأداء. الإنزال الكونجرس أم ضرب, ٣٠ ضمنها الشتوية الدولارات أضف, لم ونتج السيء الثانية بعض. أخذ الآخر تكتيكاً أن. عل بال الحرة الآلاف التّحول. الأراضي الدولار</p>
-				<br>
-			</div><!-- col-lg-12 -->
-		</div><!-- row -->
-	</div><!-- container -->
-	
-	
-	
-	<section id="contact"></section>
-	<div id="sf">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 dg">
-					<h4 class="ml">FACEBOOK</h4>
-					<p class="centered"><a href="#"><i class="fa fa-facebook"></i></a></p>
-					<p class="ml">> Become A Friend</p>
-				</div>
-				<div class="col-lg-4 lg">
-					<h4 class="ml">TWITTER</h4>
-					<p class="centered"><a href="#"><i class="fa fa-twitter"></i></a></p>
-					<p class="ml">> Follow Us</p>
-				</div>
-				<div class="col-lg-4 dg">
-					<h4 class="ml">GOOGLE +</h4>
-					<p class="centered"><a href="#"><i class="fa fa-google-plus"></i></a></p>
-					<p class="ml">> Add Us To Your Circle</p>
-				</div>
-			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- Social Footer -->
-	
-	<div id="cf">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8">
-		        	<div id="mapwrap">
-						<iframe height="400" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://www.embedgooglemaps.com">Generate your Google map here, quick and easy!									Click here									Visit our website!</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">freedirectorysubmissionsites.com is the most complete web directory list of 2016. Here you can find all directories that have high PR and are search engine friendly. Submitting a link to a link directory is a valuable SEO-strategy, even in 2016. You have to pay attention to the following: if the links you put on a directory are dofollow, otherwise they are of no value to your business.</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(51.5073509,-0.12775829999998223),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(51.5073509,-0.12775829999998223)});infowindow = new google.maps.InfoWindow({content:'<strong>cairo</strong><br>London, United Kingdom<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>"></iframe>
-					</div>	
-				</div><!--col-lg-8-->
-				<div class="col-lg-4">
-					<h4>عملية لمّ, <br/>عملية لمّ, </h4>
-					<br>
-					<p>
-						عملية لمّ, , عملية لمّ, <br/>
-						عملية لمّ, .
-					</p>
-					<p>
-						P: +20 4839-4390<br/>
-						F: +20 4333-4345<br/>
-						E: <a href="mailto:#">hello@hello.com</a>
-					</p>
-					<p>ن بشرية عملية لمّ, ذات مع الدمج لأداء. الإنزال الكونجرس أم ضرب, ٣٠ ضمنها الشتوية الدولارات أضف, لم ونتج السيء الثانية بعض. أخذ الآخر تكتيكاً أن. عل بال الحرة الآلاف التّحول. الأراضي الدولار</p>
-				</div><!--col-lg-4-->
-			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- Contact Footer -->
-	
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
-	<script src="assets/js/masonry.pkgd.min.js"></script>
-	<script src="assets/js/imagesloaded.js"></script>
-    <script src="assets/js/classie.js"></script>
-	<script src="assets/js/AnimOnScroll.js"></script>
-	<script>
-		new AnimOnScroll( document.getElementById( 'grid' ), {
-			minDuration : 0.4,
-			maxDuration : 0.7,
-			viewportFactor : 0.2
-		} );
-	</script>
-  </body>
-</html>
+        
+        
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    
+        <script type="text/javascript">
+        
+        $(document).ready(function() {
+        
+      $('#btnToggle').click(function(){
+        if ($(this).hasClass('on')) {
+          $('#main .col-md-6').addClass('col-md-4').removeClass('col-md-6');
+          $(this).removeClass('on');
+        }
+        else {
+          $('#main .col-md-4').addClass('col-md-6').removeClass('col-md-4');
+          $(this).addClass('on');
+        }
+      });
+        });
+        
+        </script>
+    
+</body></html>
